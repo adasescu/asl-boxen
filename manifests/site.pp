@@ -89,3 +89,6 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+require helion::environment
+

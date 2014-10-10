@@ -42,7 +42,7 @@ github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
 github "gcc",         "2.2.0"
 github "git",         "2.7.1"
-github "go",          "2.1.0"
+github "go",          "2.0.2", :repo => "jchenry/puppet-go"
 github "homebrew",    "1.9.8"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
@@ -59,3 +59,16 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "virtualbox", "1.0.11"
+github "vagrant",    "3.0.10"
+github "chrome",     "1.1.2"
+
+github "osx",        "2.7.0"
+
+#colin's apps
+github "dropbox",    "1.2.0"
+github "spotify",    "1.0.1"
+github "fonts",	     "0.0.3"
+github "atom",       "1.0.0"
+
