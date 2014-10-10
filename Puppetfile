@@ -71,4 +71,5 @@ github "dropbox",    "1.2.0"
 github "spotify",    "1.0.1"
 github "fonts",	     "0.0.3"
 github "atom",       "1.0.0"
+github "quicksilver", "1.3.0"
 
