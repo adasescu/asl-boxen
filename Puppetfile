@@ -63,6 +63,9 @@ github "xquartz",     "1.2.1"
 github "virtualbox", "1.0.11"
 github "vagrant",    "3.0.10"
 github "chrome",     "1.1.2"
+github "hipchat",     "1.1.3"
+github "tunnelblick",     "1.0.7"
+
 
 github "osx",        "2.7.0"
 
@@ -72,4 +75,3 @@ github "spotify",    "1.0.1"
 github "fonts",	     "0.0.3"
 github "atom",       "1.0.0"
 github "quicksilver", "1.3.0"
-

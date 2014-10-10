@@ -6,5 +6,6 @@ include go
   include virtualbox
   include vagrant
   include chrome
-
+  include hipchat
+  include tunnelblick
 }
