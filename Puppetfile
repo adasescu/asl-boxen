@@ -70,7 +70,7 @@ github "tunnelblick",     "1.0.7"
 github "osx",        "2.7.0"
 
 #colin's apps
-github "dropbox",    "1.2.0"
+github "dropbox",    "1.4.0"
 github "spotify",    "1.0.1"
 github "fonts",	     "0.0.3"
 github "atom",       "1.0.0"

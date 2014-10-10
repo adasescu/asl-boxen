@@ -21,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.2.0)
+    dropbox (1.4.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-fonts
@@ -157,7 +157,7 @@ DEPENDENCIES
   atom (= 1.0.0)
   boxen (= 3.7.0)
   chrome (= 1.1.2)
-  dropbox (= 1.2.0)
+  dropbox (= 1.4.0)
   fonts (= 0.0.3)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
