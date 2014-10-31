@@ -60,8 +60,10 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "virtualbox", "1.0.11"
+github "vmware_fusion", "1.2.0"
 github "vagrant",    "3.0.10"
+github "packer",    "1.3.1",:repo => "jchenry/puppet-packer"
+
 github "chrome",     "1.1.2"
 github "hipchat",     "1.1.3"
 github "tunnelblick",     "1.0.7"
