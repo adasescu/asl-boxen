@@ -1,6 +1,6 @@
 class people::jchenry {
   include chrome
-  include spotify
+  #include spotify
   include dropbox
   include homebrew
   include quicksilver
