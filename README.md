@@ -1,10 +1,6 @@
-# Our Boxen
+# ALS Boxen
 
-This is a template Boxen project designed for your organization to fork and
-modify appropriately.
-The Boxen rubygem and the Boxen puppet modules are only a framework for getting
-things done.
-This repository template is just a basic example of _how_ to do things with them.
+This is Application Lifecycle Services boxen.
 
 ## Getting Started
 
@@ -66,7 +62,7 @@ your boxen:
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone https://github.com/boxen/our-boxen /opt/boxen/repo
+git clone https://github.com/hpcloud/als-boxen /opt/boxen/repo
 cd /opt/boxen/repo
 git remote rm origin
 git remote add origin <the location of my new git repository>
@@ -143,6 +139,17 @@ This template project provides the following by default:
 * Findutils
 * GNU tar
 
+* Mercurial
+* Bazaar
+* Direnv
+* golang 1.3.1
+* VMware Fusion
+* Vagrant
+* Packer
+* Google Chrome
+* Hipchat
+* Tunnelblick(VPN)
+
 ## Customizing
 
 You can always check out the number of existing modules we already
@@ -154,7 +161,7 @@ in dependencies automatically whenever `boxen` is run.
 ### Including boxen modules from github (boxen/puppet-<name>)
 
 You must add the github information for your added Puppet module into your Puppetfile at the root of your
-boxen repo (ex. /path/to/your-boxen/Puppetfile):
+boxen repo (ex. /path/to/yals-boxen/Puppetfile):
 
     # Core modules for a basic development environment. You can replace
     # some/most of these if you want, but it's not recommended.
@@ -303,7 +310,7 @@ You'll still be the maintainer, you'll still own the issues and PRs.
 It'll just be listed under the boxen org so folks can find it more easily.
 
 ##upgrading boxen
-See [FAQ-Upgrading](https://github.com/boxen/our-boxen/blob/master/docs/faq.md#q-how-do-you-upgrade-your-boxen-from-the-public-our-boxen).
+See [FAQ-Upgrading](https://github.com/boxen/als-boxen/blob/master/docs/faq.md#q-how-do-you-upgrade-yals-boxen-from-the-public-als-boxen).
 
 ## Integrating with Github Enterprise
 
@@ -314,6 +321,6 @@ you will need to set the `BOXEN_GITHUB_ENTERPRISE_URL` and
 
 ## Halp!
 
-See [FAQ](https://github.com/boxen/our-boxen/blob/master/docs/faq.md).
+See [FAQ](https://github.com/boxen/als-boxen/blob/master/docs/faq.md).
 
 Use Issues or #boxen on irc.freenode.net.
