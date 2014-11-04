@@ -14,6 +14,11 @@ GITHUBTARBALL
     chrome (1.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-colloquy
+  specs:
+    colloquy (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
@@ -162,6 +167,7 @@ DEPENDENCIES
   atom (= 1.0.0)
   boxen (= 3.7.0)
   chrome (= 1.1.2)
+  colloquy (= 1.0.0)
   dropbox (= 1.4.0)
   fonts (= 0.0.3)
   foreman (= 1.2.0)

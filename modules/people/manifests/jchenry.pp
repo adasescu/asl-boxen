@@ -4,6 +4,7 @@ class people::jchenry {
   include dropbox
   include homebrew
   include quicksilver
+  include colloquy
 
   #Github Atom Editor
   include atom
