@@ -57,9 +57,12 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
+github "openstack_clients", "0.0.5",  :repo => "jchenry/puppet-openstack_clients"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "python", "2.0.0"
 github "vmware_fusion", "1.2.0"
 github "vagrant",    "3.0.10"
 github "packer",    "1.3.1",:repo => "jchenry/puppet-packer"
