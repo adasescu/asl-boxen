@@ -16,7 +16,9 @@ package {
 include openstack_clients
 
 include go
-  go::version { '1.3.1': }
+  go::version { '1.4':
+    
+  }
 
   include vmware_fusion
   include vagrant
