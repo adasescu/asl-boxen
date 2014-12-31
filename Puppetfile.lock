@@ -146,7 +146,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: jchenry/puppet-go
   specs:
-    go (2.0.2)
+    go (2.0.3)
 
 GITHUBTARBALL
   remote: jchenry/puppet-openstack_clients
@@ -184,7 +184,7 @@ DEPENDENCIES
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.7.1)
-  go (= 2.0.2)
+  go (= 2.0.3)
   hipchat (= 1.1.3)
   homebrew (= 1.9.8)
   hub (= 1.3.0)
