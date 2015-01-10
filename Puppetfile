@@ -65,7 +65,7 @@ github "openstack_clients", "0.0.5",  :repo => "jchenry/puppet-openstack_clients
 github "python", "2.0.0"
 github "vmware_fusion", "1.2.0"
 github "vagrant",    "3.0.10"
-github "packer",    "1.3.1",:repo => "jchenry/puppet-packer"
+github "packer",    "1.3.2",:repo => "jchenry/puppet-packer"
 
 github "chrome",     "1.1.2"
 github "hipchat",     "1.1.3"
